@@ -1,0 +1,79 @@
+# Ignore build folders
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+.vscode/
+Content/
+
+# Ignore user-specific files
+*.user
+*.userprefs
+
+# Ignore temporary files
+*.log
+*.obj
+*.pdb
+*.exe
+*.dll
+*.app
+*.dSYM
+*.plist
+
+# Ignore source control files
+*.suo
+*.sdf
+*.vcxproj.*
+*.VC.db
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore build artifacts
+*.opensdf
+*.sdf
+*.ipch
+*.aps
+*.pch
+
+# Ignore configuration files
+Config/*.ini
+Config/*.tmp
+
+# Ignore CodeLite IDE files
+*.tags
+
+# Ignore JetBrains Rider project files
+.idea/
+
+# Ignore Unreal Engine specific files
+*.un~
+*.ncb
+*.sln
+*.suo
+*.unsuccessfulbuild
+*.opensdf
+*.p4ignore
+*.p4q
+
+# Ignore backup files
+Backup/
+
+# Ignore auto-generated files
+*.gen.cpp
+*.gen.h
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore UE4 specific directories
+Source/ThirdParty/
+
+# Ignore the 'Saved' directory that contains autosaves, backups, and other temporary data
+Saved/
+
+# Ignore the 'Plugins' directory except for source code files
+Plugins/*.uplugin
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
